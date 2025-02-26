@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff4081;
+}
+
+.search-box {
+    flex: 1;
+    margin: 0 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+}
+
+.recipe-box {
+    background-color: #ff4081;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    padding: 20px;
+}
+
+.filters {
+    width: 250px;
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.filter-group {
+    margin-bottom: 15px;
+}
+
+.filter-group h4 {
+    margin-bottom: 5px;
+}
+
+.apply-btn {
+    width: 100%;
+    background-color: #ff4081;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.no-results {
+    flex: 1;
+    text-align: center;
+}
+
+.no-results h2 {
+    color: #333;
+}
+
+.no-results img {
+    width: 150px;
+    margin: 10px 0;
+}
+
+.tags {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.tags span {
+    background-color: #ffecf1;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #ff4081;
+}
+
+.footer {
+    background-color: #222;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.footer-section {
+    width: 30%;
+}
+
+.footer-section a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-top: 5px;
+}
+
+.footer-section input {
+    width: 70%;
+    padding: 5px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 3px;
+}
+
+.footer-section button {
+    padding: 5px 10px;
+    background-color: #ff4081;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}

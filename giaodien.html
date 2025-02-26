@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheffify Search</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="logo">Cheffify</div>
+        <input type="text" placeholder="Search..." class="search-box">
+        <nav class="nav-links">
+            <a href="#">What to cook</a>
+            <a href="#">Recipes</a>
+            <a href="#">Ingredients</a>
+            <a href="#">Occasions</a>
+            <a href="#">About us</a>
+        </nav>
+        <button class="recipe-box">Your Recipe Box</button>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- Sidebar Filters -->
+        <aside class="filters">
+            <h3>Filters</h3>
+            <div class="filter-group">
+                <h4>Type</h4>
+                <label><input type="checkbox"> Pan-fried</label>
+                <label><input type="checkbox"> Stir-fried</label>
+                <label><input type="checkbox"> Grilled</label>
+                <label><input type="checkbox"> Roasted</label>
+                <label><input type="checkbox"> Sautéed</label>
+                <label><input type="checkbox"> Baked</label>
+                <label><input type="checkbox"> Steamed</label>
+                <label><input type="checkbox"> Stewed</label>
+            </div>
+            <div class="filter-group">
+                <h4>Time</h4>
+                <input type="range" min="10" max="60">
+            </div>
+            <div class="filter-group">
+                <h4>Rating</h4>
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+                <div class="stars">⭐⭐⭐⭐</div>
+                <div class="stars">⭐⭐⭐</div>
+                <div class="stars">⭐⭐</div>
+                <div class="stars">⭐</div>
+            </div>
+            <button class="apply-btn">Apply</button>
+        </aside>
+
+        <!-- No Results Section -->
+        <section class="no-results">
+            <h2>Sorry, no results were found for "cakescascsa"</h2>
+            <img src="no-results.png" alt="No results">
+            <p>We have all your Independence Day sweets covered.</p>
+            <div class="tags">
+                <span>Sweet Cake</span>
+                <span>Black Cake</span>
+                <span>Pozole Verde</span>
+                <span>Healthy food</span>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-section">
+            <h4>About Us</h4>
+            <p>Welcome to our website, a wonderful place to explore and learn how to cook like a pro.</p>
+            <input type="email" placeholder="Enter your email">
+            <button>Send</button>
+        </div>
+        <div class="footer-section">
+            <h4>Learn More</h4>
+            <a href="#">Our Cooks</a>
+            <a href="#">See Our Features</a>
+            <a href="#">FAQ</a>
+        </div>
+        <div class="footer-section">
+            <h4>Recipes</h4>
+            <a href="#">What to Cook This Week</a>
+            <a href="#">Pasta</a>
+            <a href="#">Dinner</a>
+            <a href="#">Healthy</a>
+        </div>
+    </footer>
+
+</body>
+</html>
